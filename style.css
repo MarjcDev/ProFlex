@@ -1,0 +1,65 @@
+.flexi{
+    display: flex;
+    margin: 2px;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    border: 1px solid teal;
+    background-color: turquoise;
+}
+.dos{
+    flex-direction: column;
+}
+.tres{
+    flex-direction: row-reverse;
+}
+.cuatro{
+    flex-direction: column-reverse;
+}
+.cinco{
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.seis{
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.siete{
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.ocho{
+    justify-content: space-around;
+    flex-direction: row;
+}
+.nueve{
+    justify-content: center;
+    flex-direction: row;
+}
+.diez{
+    justify-content: space-around;
+    flex-direction: row;
+}
+.once{
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.doce{
+    align-items: flex-start;
+    flex-direction: row;
+}
+.trece{
+    align-items: flex-end;
+    flex-direction: row;
+}
+.catorce.stre{
+width: 60px;
+align-items: stretch;
+flex-direction: row;
+}
+.quince{
+
+    align-items: center;
+    flex-direction: row;
+}
