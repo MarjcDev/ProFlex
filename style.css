@@ -1,65 +1,43 @@
-.flexi{
-    display: flex;
-    margin: 2px;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.item{
-    width: 50px;
-    height: 50px;
-    border: 1px solid teal;
-    background-color: turquoise;
+h2, p{
+    color: white;
+    padding: 10px;
+    font-size: 80%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.cuadro{
+    margin: 5px;
+    padding: 10px;
+    height: 80vh;
+}
+.uno{
+    background-color: orange;
 }
 .dos{
-    flex-direction: column;
+    background-color: teal;
 }
 .tres{
-    flex-direction: row-reverse;
+    background-color: forestgreen;
 }
-.cuatro{
-    flex-direction: column-reverse;
+button{
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin: 20% 30%;
+    font-size: 8px;
 }
-.cinco{
-    justify-content: flex-start;
-    flex-direction: row;
-}
-.seis{
-    justify-content: flex-start;
-    flex-direction: row-reverse;
-}
-.siete{
-    justify-content: flex-end;
-    flex-direction: row;
-}
-.ocho{
-    justify-content: space-around;
-    flex-direction: row;
-}
-.nueve{
-    justify-content: center;
-    flex-direction: row;
-}
-.diez{
-    justify-content: space-around;
-    flex-direction: row;
-}
-.once{
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-.doce{
-    align-items: flex-start;
-    flex-direction: row;
-}
-.trece{
-    align-items: flex-end;
-    flex-direction: row;
-}
-.catorce.stre{
-width: 60px;
-align-items: stretch;
-flex-direction: row;
-}
-.quince{
-
-    align-items: center;
-    flex-direction: row;
+img{
+    width: 20%;
+    margin: 10px;
 }
